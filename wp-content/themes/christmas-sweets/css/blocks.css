@@ -1,0 +1,80 @@
+/*
+Theme Name: Christmas Sweets
+* Styles for Gutenberg blocks
+*/
+
+.gutenberg .entry-content{
+  max-width:700px;
+  font-family: "Noto Serif",serif;
+  font-size: 16px;
+  line-height: 1.8;
+  margin:0 auto;
+  display:block;
+}
+
+.wp-block-image img {
+    display: block;
+    width: 100%;
+}
+
+.wp-block-image.alignright{
+  max-width: 50%;
+  margin-left:60px;
+}
+.wp-block-image.alignleft{
+  max-width: 50%;
+  margin-right:60px;
+}
+
+.wp-block-image figcaption{
+  max-width: 100%;
+}
+
+.alignwide {
+    margin-left: -200px;
+    margin-right: -200px;
+}
+
+.alignfull {
+    margin-left: -100%;
+    margin-right: -100%;
+}
+
+pre.wp-block-verse,
+.wp-block-verse pre {
+    color: #191e23;
+    white-space: nowrap;
+    font-family: inherit;
+    font-size: inherit;
+    padding: 1em;
+    background:none;
+}
+
+.wp-block-code{
+    border: 1px solid #e2e4e7;
+    border-radius: 4px;
+    background:none;
+}
+
+.wp-block-button {
+  margin:0 0 1em 0;
+}
+
+.wp-block-pullquote {
+  border-left:none;
+}
+
+.wp-block-pullquote>p{
+  font-family: "Noto Serif",serif;
+}
+
+.wp-block-table td, .wp-block-table th {
+    padding: 0.5em;
+    border: 1px solid #000;
+}
+
+.wp-block-table {
+    width: 100%;
+    display: table;
+}
+

@@ -1,0 +1,14 @@
+/* RTL CSS*/
+html{
+direction: ltr !important;
+}
+#nav li{
+	float:right;
+}
+.logo-row a.btn-donate .fa{
+	float:right;
+	padding:0 0 0 5px;
+}
+.search-box input[type="text"]{
+	text-align:right;
+}
